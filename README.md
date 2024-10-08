@@ -45,7 +45,9 @@ ToolBox
 │   ├── Cargo.toml #rust配置文件
 │   ├── tauri.conf.json #tauri配置文件
 
+```
 ## 功能实现
+```
 1.硬件信息:只搭建结构,未实现数据
 2.cpu工具:基本完成
 3.内存工具:基本完成
