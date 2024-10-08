@@ -1,0 +1,312 @@
+{
+  "Version": 1000,
+  "WindowTop": 50,
+  "WindowLeft": 50,
+  "WindowWidth": 1525,
+  "WindowHeight": 860,
+  "IsWindowMaximized": false,
+  "IsMonitoringExpanded": true,
+  "EnabledTemperatureSensors": [
+    {
+      "DeviceName": "AMD Ryzen 5 5600",
+      "Name": "CPU CCD1 (Tdie)",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "AMD Radeon RX 6700 XT",
+      "Name": "GPU Temperature",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledVoltageSensors": [
+    {
+      "DeviceName": "AMD Ryzen 5 5600",
+      "Name": "Core 0 VID",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "ASUS TUF GAMING B550M-E WIFI (Nuvoton NCT6798D)",
+      "Name": "+5V",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "ASUS TUF GAMING B550M-E WIFI (Nuvoton NCT6798D)",
+      "Name": "3VCC",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "ASUS TUF GAMING B550M-E WIFI (Nuvoton NCT6798D)",
+      "Name": "+12V",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "AMD Radeon RX 6700 XT",
+      "Name": "GPU Core Voltage (VDDCR_GFX)",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledFanSensors": [
+    {
+      "DeviceName": "ASUS TUF GAMING B550M-E WIFI (Nuvoton NCT6798D)",
+      "Name": "CPU",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "AMD Radeon RX 6700 XT",
+      "Name": "GPU Fan",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledPowerSensors": [
+    {
+      "DeviceName": "AMD Ryzen 5 5600",
+      "Name": "CPU Package Power",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledCurrentSensors": [
+    {
+      "DeviceName": "AMD Ryzen 5 5600",
+      "Name": "CPU TDC",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledFrequencySensors": [
+    {
+      "DeviceName": "AMD Ryzen 5 5600",
+      "Name": "Core 0 Clock (perf #2/3)",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "AMD Radeon RX 6700 XT",
+      "Name": "GPU Clock",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "AMD Radeon RX 6700 XT",
+      "Name": "GPU Clock (Effective)",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "AMD Radeon RX 6700 XT",
+      "Name": "GPU Memory Clock",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledUsageSensors": [
+    {
+      "DeviceName": "System",
+      "Name": "Physical Memory Load",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "AMD Ryzen 5 5600",
+      "Name": "Total CPU Usage",
+      "LocationIndex": 0
+    },
+    {
+      "DeviceName": "AMD Radeon RX 6700 XT",
+      "Name": "GPU Memory Usage",
+      "LocationIndex": 0
+    }
+  ],
+  "EnabledOtherSensors": [],
+  "MonitoringUpdateInterval": 2,
+  "MonitoringUpdateIntervalUnit": "Seconds",
+  "GraphUpdateInterval": 2,
+  "GraphUpdateIntervalUnit": "Seconds",
+  "TemperatureAlertValue": 90,
+  "IsTemperatureAlertValueEnabled": false,
+  "Language": "Auto",
+  "MonitoringTableSize": "*",
+  "MonitoringGraphSize": "*",
+  "Monitoring": true,
+  "TestingGraphSize": "*",
+  "TestingTableSize": "*",
+  "SelectedMonitoringIndex": 0,
+  "SelectedArea": 3,
+  "CheckForUpdates": "Disabled",
+  "SaveReportPath": "D:\\Docunents",
+  "SaveScreenshotPath": "D:\\Docunents",
+  "MotherboardName": "ASUS TUF GAMING B550M-E WIFI",
+  "SelectedComponentUsage": "系统",
+  "TestingAreaDisplayMode": "TableAndGraph",
+  "TestingAreaSensorClass": "Temperature",
+  "TestingAreaTableConfig": {
+    "SensorGroup": "DeviceType",
+    "SortDescription": {
+      "Direction": 0,
+      "IsSealed": false
+    },
+    "EnabledSensorFilter": "All",
+    "DeviceTypeFilters": [
+      "Cpu",
+      "Gpu",
+      "Motherboard",
+      "Storage",
+      "Memory",
+      "Other"
+    ]
+  },
+  "MonitoringAreaSensorClass": "All",
+  "MonitoringAreaDisplayMode": "TableAndGraph",
+  "MonitoringAreaTableConfig": {
+    "SensorGroup": "DeviceType",
+    "SortDescription": {
+      "Direction": 0,
+      "IsSealed": false
+    },
+    "EnabledSensorFilter": "All",
+    "DeviceTypeFilters": [
+      "Cpu",
+      "Gpu",
+      "Motherboard",
+      "Storage",
+      "Memory",
+      "Other"
+    ]
+  },
+  "RenderMode": 1,
+  "StopOnError": false,
+  "SelectedBenchmark": "CpuBenchmark",
+  "MonitoringEcEnable": true,
+  "MonitoringSmBusEnable": true,
+  "MonitoringGpuI2CEnable": false,
+  "MonitoringDriveScanEnable": false,
+  "MonitoringCsmiSasEnable": false,
+  "MonitoringImeEnable": false,
+  "MonitoringCorsairAsetekEnable": false,
+  "MonitoringDebugModeEnable": false,
+  "AllowOcbaseUpload": true,
+  "Skin": 0,
+  "LicenseExpirationWarningLastDisplay": 999,
+  "SchedulePeriod": {
+    "Duration": "00:30:00",
+    "Version": "800",
+    "IsInfinite": true,
+    "TestType": "CpuOcct",
+    "CpuOcctConfig": {
+      "DataSet": "Large",
+      "OcctInstructionSet": "Auto",
+      "LoadType": "Variable",
+      "Mode": "Normal",
+      "Threads": "Auto",
+      "FixedThreadCount": 2,
+      "StartAtCycle": 1,
+      "AdvancedThreadConfig": {
+        "ThreadSettingsThreads": "Physical",
+        "CycleActiveCore": "Disabled",
+        "SwapActiveCore": "Disabled",
+        "CycleActiveCoreInterval": 3,
+        "CycleActiveCoreIntervalUnit": "Seconds",
+        "SwapActiveCoreInterval": 5,
+        "SwapActiveCoreIntervalUnit": "Seconds",
+        "CoreActive": [
+          0,
+          1
+        ]
+      }
+    },
+    "CpuLinpackConfig": {
+      "Version": "v2019",
+      "Threads": "PhysicalAndVirtual",
+      "Memory": 2048
+    },
+    "MemoryConfig": {
+      "MemoryInPercent": 80,
+      "MemoryMemUnit": "Percent",
+      "Threads": "Auto",
+      "FixedThreadCount": 2,
+      "InstructionSet": "Auto"
+    },
+    "Gpu3dConfig": {
+      "Mode": "ErrorDetection",
+      "UsageLimit": 100,
+      "ShaderComplexity": 3,
+      "GpuIndexes": [],
+      "TestAllGpus": false
+    },
+    "VramConfig": {
+      "GpuIndex": 0,
+      "MemoryInMiB": 0,
+      "MemoryInPercent": 80,
+      "MemoryMemUnit": "Percent"
+    },
+    "PowerSupplyConfig": {
+      "CpuOcctInstructionSet": "Auto",
+      "GpuIndexes": []
+    },
+    "CpuBenchmarkConfig": {
+      "Run": 0,
+      "Threads": "Single",
+      "InstructionSet": "Sse"
+    },
+    "MemoryBenchmarkConfig": {
+      "Run": 0,
+      "BenchmarkType": "Read"
+    }
+  },
+  "BenchSchedulePeriod": {
+    "Duration": "00:30:00",
+    "Version": "800",
+    "IsInfinite": true,
+    "TestType": "CpuBenchmark",
+    "CpuOcctConfig": {
+      "DataSet": "Large",
+      "OcctInstructionSet": "Auto",
+      "LoadType": "Variable",
+      "Mode": "Normal",
+      "Threads": "Auto",
+      "FixedThreadCount": 0,
+      "StartAtCycle": 1,
+      "AdvancedThreadConfig": {
+        "ThreadSettingsThreads": "Physical",
+        "CycleActiveCore": "Disabled",
+        "SwapActiveCore": "Disabled",
+        "CycleActiveCoreInterval": 3,
+        "CycleActiveCoreIntervalUnit": "Seconds",
+        "SwapActiveCoreInterval": 5,
+        "SwapActiveCoreIntervalUnit": "Seconds",
+        "CoreActive": []
+      }
+    },
+    "CpuLinpackConfig": {
+      "Version": "v2019",
+      "Threads": "PhysicalAndVirtual",
+      "Memory": 2048
+    },
+    "MemoryConfig": {
+      "MemoryInPercent": 80,
+      "MemoryMemUnit": "Percent",
+      "Threads": "Auto",
+      "FixedThreadCount": 0,
+      "InstructionSet": "Auto"
+    },
+    "Gpu3dConfig": {
+      "Mode": "ErrorDetection",
+      "UsageLimit": 100,
+      "ShaderComplexity": 3,
+      "GpuIndexes": [],
+      "TestAllGpus": false
+    },
+    "VramConfig": {
+      "GpuIndex": 0,
+      "MemoryInMiB": 0,
+      "MemoryInPercent": 80,
+      "MemoryMemUnit": "Percent"
+    },
+    "PowerSupplyConfig": {
+      "CpuOcctInstructionSet": "Auto",
+      "GpuIndexes": []
+    },
+    "CpuBenchmarkConfig": {
+      "Run": 0,
+      "Threads": "Single",
+      "InstructionSet": "Sse"
+    },
+    "MemoryBenchmarkConfig": {
+      "Run": 0,
+      "BenchmarkType": "Read"
+    }
+  }
+}

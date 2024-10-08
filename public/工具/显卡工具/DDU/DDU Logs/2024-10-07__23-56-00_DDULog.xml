@@ -1,0 +1,961 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<DisplayDriverUninstaller Version="18.0.6.2">
+	<LogEntries>
+		<Event>
+			<Time>10/7/2024 11:56:00 PM</Time>
+			<Message>The following paths are detected.</Message>
+			<Values Separator=" = ">
+				<KvP>
+					<Key>[Found] AppExeFile</Key>
+					<Value>G:\toolbox\resources\工具\显卡工具\DDU\Display Driver Uninstaller.exe</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] AppBase</Key>
+					<Value>G:\toolbox\resources\工具\显卡工具\DDU\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] Settings</Key>
+					<Value>G:\toolbox\resources\工具\显卡工具\DDU\Settings\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] Logs</Key>
+					<Value>G:\toolbox\resources\工具\显卡工具\DDU\DDU Logs\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] Language</Key>
+					<Value>G:\toolbox\resources\工具\显卡工具\DDU\Settings\Languages\</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>[Found] ProgramFiles</Key>
+					<Value>C:\Program Files\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] ProgramFilesx86</Key>
+					<Value>C:\Program Files (x86)\</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>[Found] Roaming</Key>
+					<Value>C:\ProgramData\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Not found] AppBaseRoaming</Key>
+					<Value>C:\ProgramData\DisplayDriverUninstaller\</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>[Found] SystemDrive</Key>
+					<Value>C:\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] WinDir</Key>
+					<Value>C:\WINDOWS\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] UserPath</Key>
+					<Value>C:\Users\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] System32</Key>
+					<Value>C:\WINDOWS\system32\</Value>
+				</KvP>
+				<KvP>
+					<Key>[Found] SysWOW64</Key>
+					<Value>C:\WINDOWS\SysWOW64\</Value>
+				</KvP>
+			</Values>
+		</Event>
+		<Error>
+			<Time>10/7/2024 11:56:03 PM</Time>
+			<Message>The remote server returned an error: (503) Server Unavailable.</Message>
+			<ExceptionData>
+				<Message>The remote server returned an error: (503) Server Unavailable.</Message>
+				<TargetSite>GetResponse</TargetSite>
+				<Source>System</Source>
+				<StackTrace>   at System.Net.HttpWebRequest.GetResponse()
+   at Display_Driver_Uninstaller.CheckUpdate.CheckUpdatesThread(Version currentVersion, Boolean CheckUpdate) in C:\Users\ghisl\OneDrive\Documents\Programmation\wpf\display-drivers-uninstaller\display-driver-uninstaller\Display Driver Uninstaller\CheckUpdate.vb:line 34</StackTrace>
+			</ExceptionData>
+		</Error>
+		<Error>
+			<Time>10/7/2024 11:56:06 PM</Time>
+			<Message>The remote server returned an error: (503) Server Unavailable.</Message>
+			<ExceptionData>
+				<Message>The remote server returned an error: (503) Server Unavailable.</Message>
+				<TargetSite>GetResponse</TargetSite>
+				<Source>System</Source>
+				<StackTrace>   at System.Net.HttpWebRequest.GetResponse()
+   at Display_Driver_Uninstaller.CheckUpdate.CheckUpdatesThread(Version currentVersion, Boolean CheckUpdate) in C:\Users\ghisl\OneDrive\Documents\Programmation\wpf\display-drivers-uninstaller\display-driver-uninstaller\Display Driver Uninstaller\CheckUpdate.vb:line 34</StackTrace>
+			</ExceptionData>
+		</Error>
+		<Event>
+			<Time>10/7/2024 11:56:06 PM</Time>
+			<Message>System Information</Message>
+			<Values Separator=" : ">
+				<KvP>
+					<Key>DDU Version</Key>
+					<Value>18.0.6.2</Value>
+				</KvP>
+				<KvP>
+					<Key>OS</Key>
+					<Value>Windows 11</Value>
+				</KvP>
+				<KvP>
+					<Key>Win 10 1809+ ?</Key>
+					<Value>True</Value>
+				</KvP>
+				<KvP>
+					<Key>Architecture</Key>
+					<Value>x64</Value>
+				</KvP>
+				<KvP>
+					<Key>UserRights</Key>
+					<Value>Admin</Value>
+				</KvP>
+				<KvP>
+					<Key>Arguments</Key>
+					<Value>&lt;empty&gt;</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>GPU #0000</Key>
+					<Value>AMD Radeon RX 6700 XT</Value>
+				</KvP>
+				<KvP>
+					<Key>GPU DeviceID</Key>
+					<Value>PCI\VEN_1002&amp;DEV_73DF&amp;SUBSYS_39801462&amp;REV_C1</Value>
+				</KvP>
+				<KvP>
+					<Key>Vbios</Key>
+					<Value>113-V398MECH-1OC</Value>
+				</KvP>
+				<KvP>
+					<Key>Detected Driver(s) Version(s)</Key>
+					<Value>32.0.12011.1036</Value>
+				</KvP>
+				<KvP>
+					<Key>INF name</Key>
+					<Value>oem54.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>INF section</Key>
+					<Value>ati2mtag_Navi22</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Key>GPU #0001</Key>
+					<Value>Parsec Virtual Display Adapter</Value>
+				</KvP>
+				<KvP>
+					<Key>GPU DeviceID</Key>
+					<Value>Root\Parsec\VDA</Value>
+				</KvP>
+				<KvP>
+					<Key>Detected Driver(s) Version(s)</Key>
+					<Value>0.45.0.0</Value>
+				</KvP>
+				<KvP>
+					<Key>INF name</Key>
+					<Value>oem51.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>INF section</Key>
+					<Value>ParsecVDADevice_Install.NT</Value>
+				</KvP>
+				<KvP />
+			</Values>
+		</Event>
+		<Warning>
+			<Time>10/7/2024 11:56:06 PM</Time>
+			<Message>We are not in Safe Mode</Message>
+		</Warning>
+		<Event>
+			<Time>10/7/2024 11:56:06 PM</Time>
+			<Message>The following third-party driver packages are installed on this computer</Message>
+			<Values Separator=" = ">
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem0.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Advanced Micro Devices</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem1.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>net</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem10.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Advanced Micro Devices, Inc.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem11.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Net</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem12.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Xbox</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>HSM</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem13.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Xbox</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>SCSIAdapter</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem14.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Advanced Micro Devices, Inc.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>SoftwareComponent</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem15.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Advanced Micro Devices, Inc.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>SoftwareComponent</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem16.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Xbox</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>HSM</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem17.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Xbox</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>SCSIAdapter</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem18.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Microsoft</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Printer</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem19.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Net</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem2.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Net</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem20.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Advanced Micro Devices, Inc.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>SoftwareComponent</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem21.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Advanced Micro Devices, Inc.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Display</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem22.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Xbox</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>SCSIAdapter</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem23.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Net</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem24.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>net</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem25.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>AMD</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem26.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Xbox</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>HSM</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem27.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Net</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem28.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Xbox</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>SCSIAdapter</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem29.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Advanced Micro Devices, Inc.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>SoftwareComponent</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem3.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>AMD</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Extension</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem30.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Net</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem31.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Advanced Micro Devices, Inc</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem32.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Advanced Micro Devices, Inc.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>SoftwareComponent</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem33.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Advanced Micro Devices</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem34.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>net</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem35.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Advanced Micro Devices, Inc</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem36.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>AMD</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem37.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>QUALCOMM</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>USBDevice</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem38.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Xbox</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>SCSIAdapter</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem39.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>AMD</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem4.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Valve Corporation</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem40.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Advanced Micro Devices, Inc.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem41.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Xbox</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>SCSIAdapter</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem42.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>AMD</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem43.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>HP</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Printer</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem44.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Xbox</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>SCSIAdapter</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem45.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Xbox</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>SCSIAdapter</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem46.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Microsoft</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Printer</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem47.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek Semiconductor Corp.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem48.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>ZeroTier</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Net</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem49.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Intel Corporation</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Bluetooth</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem5.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Valve Corporation</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>NetService</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem50.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Valve Corporation</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem51.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Parsec Cloud, Inc.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Display</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem52.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>MiPlay</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem53.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Microsoft</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Printer</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem54.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Advanced Micro Devices, Inc.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Display</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem55.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Advanced Micro Devices, Inc.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem56.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>WireGuard LLC</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Net</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem57.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Advanced Micro Devices, Inc.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>SoftwareComponent</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem58.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Advanced Micro Devices, Inc.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>SoftwareComponent</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem59.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>AMD</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem6.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>AMD</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem60.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>AMD</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>MEDIA</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem61.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>AMD</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Extension</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem7.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Advanced Micro Devices, Inc.</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>SoftwareComponent</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem8.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>AMD</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>System</Value>
+				</KvP>
+				<KvP />
+				<KvP>
+					<Value>C:\WINDOWS\inf\oem9.inf</Value>
+				</KvP>
+				<KvP>
+					<Key>Provider</Key>
+					<Value>Realtek</Value>
+				</KvP>
+				<KvP>
+					<Key>Class</Key>
+					<Value>Net</Value>
+				</KvP>
+				<KvP />
+			</Values>
+		</Event>
+		<Event>
+			<Time>10/7/2024 11:56:10 PM</Time>
+			<Message>Trying to impersonate the SYSTEM account... SUCCESS !</Message>
+			<Values Separator=" : ">
+				<KvP>
+					<Key>Number of process to check</Key>
+					<Value>292</Value>
+				</KvP>
+				<KvP>
+					<Key>msedge</Key>
+					<Value>Skipping : S-1-5-21-2359936272-2708671226-2337382102-1000</Value>
+				</KvP>
+				<KvP>
+					<Key>msedgewebview2</Key>
+					<Value>Skipping : S-1-5-21-2359936272-2708671226-2337382102-1000</Value>
+				</KvP>
+				<KvP>
+					<Key>webwallpaper32</Key>
+					<Value>Skipping : S-1-5-21-2359936272-2708671226-2337382102-1000</Value>
+				</KvP>
+				<KvP>
+					<Key>atieclxx</Key>
+					<Value>S-1-5-18</Value>
+				</KvP>
+				<KvP>
+					<Key>atieclxx</Key>
+					<Value>SYSTEM account impersonalisation SUCCESS</Value>
+				</KvP>
+			</Values>
+		</Event>
+		<Event>
+			<Time>10/7/2024 11:56:10 PM</Time>
+			<Message>Reverting the Impersonalisation is successful !</Message>
+		</Event>
+		<Event>
+			<Time>10/7/2024 11:56:11 PM</Time>
+			<Message>&gt;&gt; Successfully saved log to file!</Message>
+		</Event>
+	</LogEntries>
+</DisplayDriverUninstaller>

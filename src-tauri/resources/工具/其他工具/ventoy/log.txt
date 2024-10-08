@@ -1,0 +1,65 @@
+[2024/10/07 23:17:38.242] 
+##################################################################################
+############################## Ventoy2DiskX86  #############################
+##################################################################################
+[2024/10/07 23:17:38.242] Current Directory <G:\PrivateCode\tauri\ToolBox\src-tauri\resources\工具\其他工具\ventoy>
+[2024/10/07 23:17:38.242] Exe file path <G:\PrivateCode\tauri\ToolBox\src-tauri\resources\工具\其他工具\ventoy\Ventoy2Disk.exe>
+[2024/10/07 23:17:38.242] Current directory check OK.
+[2024/10/07 23:17:38.243] Current directory:<G:\PrivateCode\tauri\ToolBox\src-tauri\resources\工具\其他工具\ventoy>
+[2024/10/07 23:17:38.243] ######### Current Ventoy Version: Ventoy2DiskX86 1.0.91 ########
+[2024/10/07 23:17:38.248] id=20628/8844
+[2024/10/07 23:17:38.249] PPath:<C:\Windows\explorer.exe>
+[2024/10/07 23:17:38.249] PSize:<2827752 2761KB>
+[2024/10/07 23:17:38.249] Lunch main process 0
+[2024/10/07 23:17:38.249] Control Flag: 0 1 1
+[2024/10/07 23:17:38.251] Windows Version: <<Windows 11 Pro, 64-bit (Build 26100.1882)>>
+[2024/10/07 23:17:38.252] 
+===================== Enum All PhyDrives =====================
+[2024/10/07 23:17:38.252] RegOpenKeyExA <SYSTEM\CurrentControlSet\Services\disk\Enum> Ret:0
+[2024/10/07 23:17:38.252] RegQueryValueExA <Count> ret:0  Size:4 Value:4
+[2024/10/07 23:17:38.253] GetPhysicalDriveCount: 4
+[2024/10/07 23:17:38.253] Logical Drives: 0x7c
+[2024/10/07 23:17:38.253] LogicalDrive:\\.\C: PhyDrive:2 Num:1 Offset:122683392 ExtentLength:428621168640
+[2024/10/07 23:17:38.253] C --> 2
+[2024/10/07 23:17:38.254] LogicalDrive:\\.\D: PhyDrive:0 Num:1 Offset:16777216 ExtentLength:4000768229376
+[2024/10/07 23:17:38.254] D --> 0
+[2024/10/07 23:17:38.254] LogicalDrive:\\.\E: PhyDrive:1 Num:1 Offset:1048576 ExtentLength:1000203091968
+[2024/10/07 23:17:38.254] E --> 1
+[2024/10/07 23:17:38.254] LogicalDrive:\\.\F: PhyDrive:3 Num:1 Offset:16777216 ExtentLength:4096787480576
+[2024/10/07 23:17:38.255] F --> 3
+[2024/10/07 23:17:38.255] LogicalDrive:\\.\G: PhyDrive:2 Num:1 Offset:429615218688 ExtentLength:570587873280
+[2024/10/07 23:17:38.255] G --> 2
+[2024/10/07 23:17:38.257] Create file Handle:00000154 \\.\PhysicalDrive0 status:0
+[2024/10/07 23:17:38.257] PHYSICALDRIVE0 size 4000787030016 bytes
+[2024/10/07 23:17:38.258] Create file Handle:00000154 \\.\PhysicalDrive1 status:0
+[2024/10/07 23:17:41.062] PHYSICALDRIVE1 size 1000204886016 bytes
+[2024/10/07 23:17:41.063] Create file Handle:00000154 \\.\PhysicalDrive2 status:0
+[2024/10/07 23:17:41.065] PHYSICALDRIVE2 size 1000204886016 bytes
+[2024/10/07 23:17:41.065] Create file Handle:00000154 \\.\PhysicalDrive3 status:0
+[2024/10/07 23:17:41.071] PHYSICALDRIVE3 size 4096805658624 bytes
+[2024/10/07 23:17:41.071] PhyDrv:0 BusType:SATA Removable:0 Size:4000GB(4000787030016) Sector:512/4096 Name: WDC WD40EZRZ-22GXCB0
+[2024/10/07 23:17:41.071] PhyDrv:1 BusType:SATA Removable:0 Size:1024GB(1000204886016) Sector:512/4096 Name: WDC WD10EZEX-75WN4A1
+[2024/10/07 23:17:41.071] PhyDrv:2 BusType:Nvme Removable:0 Size:1024GB(1000204886016) Sector:512/4096 Name: WDC WDS100T2B0C-00PXH0
+[2024/10/07 23:17:41.072] PhyDrv:3 BusType:Nvme Removable:0 Size:4096GB(4096805658624) Sector:512/4096 Name: TOPMORE Aquarius
+[2024/10/07 23:17:41.072] LogicalDrive:\\.\C: PhyDrive:2 Num:1 Offset:122683392 ExtentLength:428621168640
+[2024/10/07 23:17:41.072] Logical Drive:C  ===> PhyDrive:2
+[2024/10/07 23:17:41.072] LogicalDrive:\\.\D: PhyDrive:0 Num:1 Offset:16777216 ExtentLength:4000768229376
+[2024/10/07 23:17:41.073] Logical Drive:D  ===> PhyDrive:0
+[2024/10/07 23:17:41.073] LogicalDrive:\\.\E: PhyDrive:1 Num:1 Offset:1048576 ExtentLength:1000203091968
+[2024/10/07 23:17:41.073] Logical Drive:E  ===> PhyDrive:1
+[2024/10/07 23:17:41.073] LogicalDrive:\\.\F: PhyDrive:3 Num:1 Offset:16777216 ExtentLength:4096787480576
+[2024/10/07 23:17:41.074] Logical Drive:F  ===> PhyDrive:3
+[2024/10/07 23:17:41.074] LogicalDrive:\\.\G: PhyDrive:2 Num:1 Offset:429615218688 ExtentLength:570587873280
+[2024/10/07 23:17:41.074] Logical Drive:G  ===> PhyDrive:2
+[2024/10/07 23:17:41.074] < WDC WD40EZRZ-22GXCB0> is filtered for not USB type.
+[2024/10/07 23:17:41.074] < WDC WD10EZEX-75WN4A1> is filtered for not USB type.
+[2024/10/07 23:17:41.075] < WDC WDS100T2B0C-00PXH0> is filtered for not USB type.
+[2024/10/07 23:17:41.075] < TOPMORE Aquarius> is filtered for not USB type.
+[2024/10/07 23:17:41.133] Load languages from json file ...
+[2024/10/07 23:17:41.134] language json file len:275390 json parse:0
+[2024/10/07 23:17:41.135] Total 51 languages ...
+[2024/10/07 23:17:41.212] Courier New font <C:\WINDOWS\Fonts\couri.ttf> exist OK.
+[2024/10/07 23:17:41.212] system_dir=<C:\WINDOWS\system32>
+[2024/10/07 23:17:41.212] sysnative_dir=<C:\WINDOWS\Sysnative>
+[2024/10/07 23:17:41.215] LoadLibrary shell32.dll.mui SUCCESS
+[2024/10/07 23:17:41.216] SetAlertPromptHook SUCCESS

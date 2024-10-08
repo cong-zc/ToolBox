@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\PrivateCode\\tauri\\ToolBox\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\PrivateCode\\tauri\\ToolBox\\src\\App.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src\\App.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|G:\\PrivateCode\\tauri\\ToolBox\\src-tauri\\src\\lib.rs||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:src-tauri\\src\\lib.rs||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "App.tsx",
+              "DocumentMoniker": "G:\\PrivateCode\\tauri\\ToolBox\\src\\App.tsx",
+              "RelativeDocumentMoniker": "src\\App.tsx",
+              "ToolTip": "G:\\PrivateCode\\tauri\\ToolBox\\src\\App.tsx",
+              "RelativeToolTip": "src\\App.tsx",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-07T08:06:47.098Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "lib.rs",
+              "DocumentMoniker": "G:\\PrivateCode\\tauri\\ToolBox\\src-tauri\\src\\lib.rs",
+              "RelativeDocumentMoniker": "src-tauri\\src\\lib.rs",
+              "ToolTip": "G:\\PrivateCode\\tauri\\ToolBox\\src-tauri\\src\\lib.rs",
+              "RelativeToolTip": "src-tauri\\src\\lib.rs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAbAAAAAAAAAA==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAXsSURBVFhH7ZjfaxvZFcc/mh8aSbY0kqyRLClJ7cSpHNyGPISlD22gJQ1NMGELaZfA7sv\u002BRfvUt/hBtGlCYLeFQFOymx8PC2EJxFEVYzDGiUPkRBaWnGisHzNzZx92NDhjOVZ2u7AP\u002B4WL0NH98eGec\u002B89R/BTkuu6QdPPCioUNHgKAXngN8CvgEkgCkjvGLOfXEAAXeAVUAUeABuAE\u002Bw8bPIocBr4EPgA\u002BAWQBMIe0PeRACygBTwDHgL/Br4BzGDn3ZKA3wFlYMub6MdoLeCfwB8AeTfAW188N30KfOTtyo8lDTgC9D0Xbg9\u002BCAL9EbgE/DJgHypJkohEIiSTSYQQ8H4nV/M\u002BN4D/DYxBoL8CvwcSAfseKYqCruucOHGCM2fOsL29jSRJ2LaNEGJUMAWoAV8NDMEgzY3iqkgkwtzcHJcvX2Z\u002Bfh7XdTFNk0OHDjE7O4thGCiKEhw2TElvTV9BoIh3moZKkiRKpRKXLl3i4sWLZLNZ2u02rVaLXq/H69evUVWVo0ePUiqVyGQyhELDDrIvxXOdzxEEkofYADh8\u002BDDz8/OcO3eOY8eOoaqqD7Gzs4Nt25imSbfbBSCZTDI1NcXx48fRdT043UAhb02fOohfBi7vji1VVTl9\u002BjQXLlxgenqaWCyG67o4jkOv16PdbtNsNlldXUVRFMbGxohGo6iqSigUwnEcWq0Wy8vL3L17F8uydq/nAjeAjwGbUYDC4TBnz57l/PnznDp1inw\u002BTzgc9qEcx8GyLEzzu/tNlmUURfFdJYSg0Whw/fp1yuWyv4OeBkCfeBfnnlP2Z\u002BDXu90WCoVIpVL0\u002B30kSSIWi5HJZMhms0xMTJBOp8lkMhQKBQqFApOTkxiGQTqdRtd1VFWl0Whw69YtVldXcZw9r8US8IV3YR4MJEkS\u002BXwey7JYX19nY2ODbreLLMuoqoqmaf5uuK6LEALLsuj1epimyYsXL7hz5w4PHjzg1atXw66D9wcqFotIkoTrumxvb7OyssLTp09xHIdEIoGqqsiyjOM4dLtdTNOk0\u002Bmws7PD8vIyN27c4M2bNzQajR8OJMsyxWIRRVEQQiCEwLZt6vU6lUqFarVKMpnEMAxM08Q0TWzbxnVd1tfXuX37NtVqFdu22draOhBo6BHfT0IIP5CFEHS7XdbW1iiXy9RqtbcCttPp8OTJE\u002B7du\u002Bff3qNoJCBJkpCk77oOngVN0zAMg2KxSDwex3VdP4aEEFSrVe7fv0\u002Br1cK27WHBPFQjA8myjCzLaJpGKpVicnKSTCZDPB5nbGwMdgV1p9Ph2bNnrK2t0e/33\u002Bt9GxlI0zTS6TS5XA7DMEgkEsRiMSKRCJFIBLzdA2g2m6iqysmTJ5mbmyMajY7sspGCemZmhqmpKQzDQNd1YrEYmqYRDofRNI1oNEqpVEKWZSzLotlsApDP5ykUCui6TrvdZmNjYxjY\u002BwW1EIJ6vY4QAsMwKBQKZLNZUqkUuq4Tj8eJx\u002BOEQiFc1/XvKMMwmJ6eZmZmhnw\u002Bf1AM\u002Bb4M7tCHXlLvg7quy8uXLzFNk3g8TjKZRNd1xsfH39qhQqEAQLfb9e\u002Bser3Oo0ePuHnzJg8fPhy2Oy7wBPh8ABUEuugBBe00Gg0qlQpbW1skEglSqRSqqvotl8thWRb9fp92u83jx4\u002B5evUq165d4/nz58HpBhJetvjFfkB/8oCG5kRCCGq1GouLi2xubpLL5Uin0yiKwsTEBLZts7KywsLCAuVymaWlpYNcZQGPgX8NDEGgD4ATB6Wwtm1Tq9WoVCpsbm5SLBZRVZWFhQWuXLnC4uKi//ofoC3ga\u002BDL4A8D/cXrECxbhjZJksT4\u002BLg4cuSImJ2dFel0WsiyvKffO9o3Xi60rw4Bn3l1U3DwO1soFNpjO6C9Af4GTO0GCLqs7ZW8ulexDkqV/7dM4L/A34GKBwhDgFxgE3jpFXF4ibg6JLscVYPa3vJiZgn4D/APr8Z/K4XcbxEZKAK/9U5dbld1sN\u002BY/TQA6gF1r1L9Gng\u002B6p8N\u002B\u002Bn7wAw0gPpZP1jfAvv0t91QGNh3AAAAAElFTkSuQmCC",
+              "WhenOpened": "2024-10-07T07:30:40.77Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
